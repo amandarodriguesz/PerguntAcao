@@ -1,0 +1,54 @@
+﻿@model Quiz.Models.Questao
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Questao</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Pergunta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Pergunta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opcao_a)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opcao_a)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opcao_b)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opcao_b)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opcao_c)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opcao_c)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Opcao_d)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Opcao_d)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Resposta_certa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Resposta_certa)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
