@@ -12951,11 +12951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Serejo\\PerguntAcao\\Quiz\\Quiz.csproj",
+      "projectUniqueName": "C:\\Users\\Fabrica\\Documents\\Quiz\\Quiz\\Quiz.csproj",
       "projectName": "Quiz",
-      "projectPath": "C:\\Serejo\\PerguntAcao\\Quiz\\Quiz.csproj",
+      "projectPath": "C:\\Users\\Fabrica\\Documents\\Quiz\\Quiz\\Quiz.csproj",
       "packagesPath": "C:\\Users\\Fabrica\\.nuget\\packages\\",
-      "outputPath": "C:\\Serejo\\PerguntAcao\\Quiz\\obj\\",
+      "outputPath": "C:\\Users\\Fabrica\\Documents\\Quiz\\Quiz\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
