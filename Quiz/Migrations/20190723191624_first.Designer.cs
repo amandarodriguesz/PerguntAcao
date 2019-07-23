@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Quiz.Migrations
 {
     [DbContext(typeof(QuizContext))]
-    [Migration("20190722191735_First")]
-    partial class First
+    [Migration("20190723191624_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
